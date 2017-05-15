@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9B2E28E1EC940B40035DD77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B2E28D1EC940B40035DD77 /* main.m */; };
+		D9B2E2911EC940B40035DD77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B2E2901EC940B40035DD77 /* AppDelegate.m */; };
+		D9B2E2941EC940B40035DD77 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B2E2931EC940B40035DD77 /* ViewController.m */; };
+		D9B2E2971EC940B40035DD77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9B2E2951EC940B40035DD77 /* Main.storyboard */; };
+		D9B2E2991EC940B40035DD77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9B2E2981EC940B40035DD77 /* Assets.xcassets */; };
+		D9B2E29C1EC940B40035DD77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9B2E29A1EC940B40035DD77 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D9B2E2891EC940B40035DD77 /* 063-- 判断文件的图片类型.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "063-- 判断文件的图片类型.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9B2E28D1EC940B40035DD77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9B2E28F1EC940B40035DD77 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D9B2E2901EC940B40035DD77 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D9B2E2921EC940B40035DD77 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D9B2E2931EC940B40035DD77 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D9B2E2961EC940B40035DD77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9B2E2981EC940B40035DD77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9B2E29B1EC940B40035DD77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9B2E29D1EC940B40035DD77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9B2E2861EC940B40035DD77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9B2E2801EC940B40035DD77 = {
+			isa = PBXGroup;
+			children = (
+				D9B2E28B1EC940B40035DD77 /* 063-- 判断文件的图片类型 */,
+				D9B2E28A1EC940B40035DD77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9B2E28A1EC940B40035DD77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9B2E2891EC940B40035DD77 /* 063-- 判断文件的图片类型.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9B2E28B1EC940B40035DD77 /* 063-- 判断文件的图片类型 */ = {
+			isa = PBXGroup;
+			children = (
+				D9B2E28F1EC940B40035DD77 /* AppDelegate.h */,
+				D9B2E2901EC940B40035DD77 /* AppDelegate.m */,
+				D9B2E2921EC940B40035DD77 /* ViewController.h */,
+				D9B2E2931EC940B40035DD77 /* ViewController.m */,
+				D9B2E2951EC940B40035DD77 /* Main.storyboard */,
+				D9B2E2981EC940B40035DD77 /* Assets.xcassets */,
+				D9B2E29A1EC940B40035DD77 /* LaunchScreen.storyboard */,
+				D9B2E29D1EC940B40035DD77 /* Info.plist */,
+				D9B2E28C1EC940B40035DD77 /* Supporting Files */,
+			);
+			path = "063-- 判断文件的图片类型";
+			sourceTree = "<group>";
+		};
+		D9B2E28C1EC940B40035DD77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9B2E28D1EC940B40035DD77 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9B2E2881EC940B40035DD77 /* 063-- 判断文件的图片类型 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9B2E2A01EC940B40035DD77 /* Build configuration list for PBXNativeTarget "063-- 判断文件的图片类型" */;
+			buildPhases = (
+				D9B2E2851EC940B40035DD77 /* Sources */,
+				D9B2E2861EC940B40035DD77 /* Frameworks */,
+				D9B2E2871EC940B40035DD77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "063-- 判断文件的图片类型";
+			productName = "063-- 判断文件的图片类型";
+			productReference = D9B2E2891EC940B40035DD77 /* 063-- 判断文件的图片类型.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9B2E2811EC940B40035DD77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "顾雪飞";
+				TargetAttributes = {
+					D9B2E2881EC940B40035DD77 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D9B2E2841EC940B40035DD77 /* Build configuration list for PBXProject "063-- 判断文件的图片类型" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9B2E2801EC940B40035DD77;
+			productRefGroup = D9B2E28A1EC940B40035DD77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9B2E2881EC940B40035DD77 /* 063-- 判断文件的图片类型 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9B2E2871EC940B40035DD77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B2E29C1EC940B40035DD77 /* LaunchScreen.storyboard in Resources */,
+				D9B2E2991EC940B40035DD77 /* Assets.xcassets in Resources */,
+				D9B2E2971EC940B40035DD77 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9B2E2851EC940B40035DD77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B2E2941EC940B40035DD77 /* ViewController.m in Sources */,
+				D9B2E2911EC940B40035DD77 /* AppDelegate.m in Sources */,
+				D9B2E28E1EC940B40035DD77 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D9B2E2951EC940B40035DD77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9B2E2961EC940B40035DD77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9B2E29A1EC940B40035DD77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9B2E29B1EC940B40035DD77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9B2E29E1EC940B40035DD77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D9B2E29F1EC940B40035DD77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9B2E2A11EC940B40035DD77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "063-- 判断文件的图片类型/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "guxuefei.-63------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D9B2E2A21EC940B40035DD77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "063-- 判断文件的图片类型/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "guxuefei.-63------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9B2E2841EC940B40035DD77 /* Build configuration list for PBXProject "063-- 判断文件的图片类型" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9B2E29E1EC940B40035DD77 /* Debug */,
+				D9B2E29F1EC940B40035DD77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9B2E2A01EC940B40035DD77 /* Build configuration list for PBXNativeTarget "063-- 判断文件的图片类型" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9B2E2A11EC940B40035DD77 /* Debug */,
+				D9B2E2A21EC940B40035DD77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9B2E2811EC940B40035DD77 /* Project object */;
+}
